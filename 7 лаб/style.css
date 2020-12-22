@@ -1,0 +1,26 @@
+.squire, .sphere, .triangle{
+    position: fixed;
+}
+
+.squire{
+    border: black 1px solid;
+    background-color: #ff0000bb;
+}
+.sphere{
+    border: black 1px solid;
+    border-radius: 50%;
+    background-color: #008000bb;
+}
+.triangle{
+    background-color: #0000ffbb;
+    clip-path: polygon(50% 0, 0% 100%, 100% 100%);
+}
+.sphere.one-clicked{
+    background-color: #ffff00bb;
+}
+.squire.one-clicked{
+    background-color: #00ffffbb;
+}
+.triangle.one-clicked{
+    background-color: #a52a2abb;
+}
